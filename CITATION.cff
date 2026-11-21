@@ -5,6 +5,7 @@ version: "2026-11"
 date-released: "2026-11-01"
 license: CC-BY-4.0
 url: "https://myremoteva.com/va-price-index"
+doi: "10.5281/zenodo.24424846"
 authors:
   - name: "MyRemoteVA"
 abstract: "Prices that virtual assistant providers publish on their own pricing pages, with price per hour and the basis for each figure. Provider pages read on 28 October 2026."

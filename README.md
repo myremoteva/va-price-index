@@ -3,6 +3,8 @@
 Prices that virtual assistant providers publish on their own pricing pages, side by side, with the price per hour and the basis for each figure. Version 2026-11. Provider pages read on 28 October 2026. Next check due 28 November 2026.
 
 Canonical page: https://myremoteva.com/va-price-index
+DOI: https://doi.org/10.5281/zenodo.24424846 (Zenodo)
+Kaggle mirror: https://www.kaggle.com/datasets/myremoteva/virtual-assistant-price-index-nov-2026
 
 ## Disclosure
 Published by MyRemoteVA, which sells managed virtual assistant services and is one of the providers in the table. We record only what each provider shows on its own public pricing page and say when a figure is our own arithmetic.
