@@ -1,0 +1,1762 @@
+{
+    "name": "Virtual assistant price index",
+    "version": "2026-11",
+    "published": "2026-11-01",
+    "data_read_date": "2026-10-28",
+    "next_check_due": "2026-11-28",
+    "publisher": "MyRemoteVA (one of the providers listed)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://myremoteva.com/va-price-index",
+    "how_to_cite": "MyRemoteVA, Virtual assistant price index, version 2026-11, https://myremoteva.com/va-price-index",
+    "notes": [
+        "Provider rows record what each provider shows on its own public pricing page on the date read. Prices change; check the provider page before you buy.",
+        "Where a provider shows a monthly price and hours but no hourly rate, usd_per_hour is our arithmetic (price divided by hours) and the basis column says so.",
+        "Price per hour is not a quality score. Task scope, review, location and commitment differ between providers.",
+        "MyRemoteVA rows come from the current published price list (data/plans.php on myremoteva.com). Quarterly plans bill every 3 months.",
+        "The hours-to-cost file is MyRemoteVA arithmetic: the lowest-cost combination of monthly plans that covers the hours (quarterly plans excluded)."
+    ],
+    "providers": [
+        {
+            "provider": "MyRemoteVA",
+            "plan": "The $1 plan (new registrations only, 1 hour a month)",
+            "billing": "monthly",
+            "hours": "1",
+            "price_usd": "1.00",
+            "usd_per_hour": "1.00",
+            "basis": "published price list",
+            "commitment": "Adds 1 hour a month; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Pay-as-you-go",
+            "billing": "pay as you go",
+            "hours": "1",
+            "price_usd": "12.00",
+            "usd_per_hour": "12.00",
+            "basis": "published price list",
+            "commitment": "No subscription; hours never expire",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Dedicated assistant, Full-time, 160 hours",
+            "billing": "monthly",
+            "hours": "160",
+            "price_usd": "899.00",
+            "usd_per_hour": "5.62",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Dedicated assistant, Part-time, 80 hours",
+            "billing": "monthly",
+            "hours": "80",
+            "price_usd": "500.00",
+            "usd_per_hour": "6.25",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Quarterly plan, 90 hours",
+            "billing": "every 3 months",
+            "hours": "90",
+            "price_usd": "630.00",
+            "usd_per_hour": "7.00",
+            "basis": "published price list",
+            "commitment": "Billed every 3 months; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Quarterly plan, 45 hours",
+            "billing": "every 3 months",
+            "hours": "45",
+            "price_usd": "360.00",
+            "usd_per_hour": "8.00",
+            "basis": "published price list",
+            "commitment": "Billed every 3 months; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Quarterly plan, 15 hours",
+            "billing": "every 3 months",
+            "hours": "15",
+            "price_usd": "135.00",
+            "usd_per_hour": "9.00",
+            "basis": "published price list",
+            "commitment": "Billed every 3 months; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Hourly plan, 60 hours",
+            "billing": "monthly",
+            "hours": "60",
+            "price_usd": "510.00",
+            "usd_per_hour": "8.50",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Hourly plan, 36 hours",
+            "billing": "monthly",
+            "hours": "36",
+            "price_usd": "324.00",
+            "usd_per_hour": "9.00",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Hourly plan, 12 hours",
+            "billing": "monthly",
+            "hours": "12",
+            "price_usd": "120.00",
+            "usd_per_hour": "10.00",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Hourly plan, 6 hours",
+            "billing": "monthly",
+            "hours": "6",
+            "price_usd": "63.00",
+            "usd_per_hour": "10.50",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "MyRemoteVA",
+            "plan": "Hourly plan, 3 hours",
+            "billing": "monthly",
+            "hours": "3",
+            "price_usd": "33.00",
+            "usd_per_hour": "11.00",
+            "basis": "published price list",
+            "commitment": "Monthly plan; unused hours roll over while the account is active",
+            "location": "Kozhikode, Kerala, India (team lead reviews every task)",
+            "source": "https://myremoteva.com/pricing",
+            "date_read": "2026-11-01"
+        },
+        {
+            "provider": "Time etc",
+            "plan": "Smallest listed plan",
+            "billing": "monthly",
+            "hours": "10",
+            "price_usd": "390.00",
+            "usd_per_hour": "39.00",
+            "basis": "stated on the page",
+            "commitment": "Renews monthly; page says no notice period to cancel; one free task offered to start",
+            "location": "U.S.-based assistant (as stated on the page)",
+            "source": "https://www.timeetc.com/pricing",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Time etc",
+            "plan": "Largest listed plan",
+            "billing": "monthly",
+            "hours": "60",
+            "price_usd": "2160.00",
+            "usd_per_hour": "36.00",
+            "basis": "stated on the page",
+            "commitment": "Renews monthly; larger plans on request",
+            "location": "U.S.-based assistant (as stated on the page)",
+            "source": "https://www.timeetc.com/pricing",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Boldly",
+            "plan": "Smallest listed plan",
+            "billing": "monthly",
+            "hours": "40",
+            "price_usd": "2600.00",
+            "usd_per_hour": "65.00",
+            "basis": "our arithmetic",
+            "commitment": "No minimum length stated; page says upgrade, downgrade or cancel at any time; 40 hours a month minimum per assistant",
+            "location": "U.S.-based employees, North America or Europe (as stated on the page)",
+            "source": "https://www.boldly.com/pricing/",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Boldly",
+            "plan": "Largest listed plan",
+            "billing": "monthly",
+            "hours": "100",
+            "price_usd": "6500.00",
+            "usd_per_hour": "65.00",
+            "basis": "our arithmetic",
+            "commitment": "No minimum length stated; page says upgrade, downgrade or cancel at any time",
+            "location": "U.S.-based employees, North America or Europe (as stated on the page)",
+            "source": "https://www.boldly.com/pricing/",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Boldly",
+            "plan": "Specialist tasks",
+            "billing": "per hour",
+            "hours": "1",
+            "price_usd": "79.00",
+            "usd_per_hour": "79.00",
+            "basis": "stated on the page",
+            "commitment": "Not stated",
+            "location": "U.S.-based employees, North America or Europe (as stated on the page)",
+            "source": "https://www.boldly.com/pricing/",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Prialto",
+            "plan": "One unit",
+            "billing": "monthly",
+            "hours": "55",
+            "price_usd": "1600.00",
+            "usd_per_hour": "29.09",
+            "basis": "our arithmetic (assumes all 55 hours are used)",
+            "commitment": "90-day minimum per unit; $250 setup fee, waived on a one-year agreement",
+            "location": "Not stated; page says US and UK business hours",
+            "source": "https://www.prialto.com/pricing",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Prialto",
+            "plan": "Three units (from)",
+            "billing": "monthly",
+            "hours": "165",
+            "price_usd": "3600.00",
+            "usd_per_hour": "21.82",
+            "basis": "our arithmetic (3 units of 55 hours)",
+            "commitment": "90-day minimum per unit; $250 setup fee, waived on a one-year agreement",
+            "location": "Not stated; page says US and UK business hours",
+            "source": "https://www.prialto.com/pricing",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Stealth Agents",
+            "plan": "Core Support",
+            "billing": "monthly",
+            "hours": "160",
+            "price_usd": "1600.00",
+            "usd_per_hour": "10.00",
+            "basis": "our arithmetic (page says 40 hours a week; we use 160 hours a month)",
+            "commitment": "Page states a 3-month commitment and also says no contracts, so check before you sign; one-time onboarding fee, amount not shown",
+            "location": "Philippines-based, aligned to US time zones (as stated on the page)",
+            "source": "https://stealthagents.com/pricing/",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Stealth Agents",
+            "plan": "Senior EA",
+            "billing": "monthly",
+            "hours": "160",
+            "price_usd": "2400.00",
+            "usd_per_hour": "15.00",
+            "basis": "our arithmetic (page says 40 hours a week; we use 160 hours a month)",
+            "commitment": "Page states a 3-month commitment and also says no contracts, so check before you sign; one-time onboarding fee, amount not shown",
+            "location": "Philippines-based, aligned to US time zones (as stated on the page)",
+            "source": "https://stealthagents.com/pricing/",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Stealth Agents",
+            "plan": "Operations",
+            "billing": "monthly",
+            "hours": "160",
+            "price_usd": "3000.00",
+            "usd_per_hour": "18.75",
+            "basis": "our arithmetic (page says 40 hours a week; we use 160 hours a month)",
+            "commitment": "Page states a 3-month commitment and also says no contracts, so check before you sign; one-time onboarding fee, amount not shown",
+            "location": "Philippines-based, aligned to US time zones (as stated on the page)",
+            "source": "https://stealthagents.com/pricing/",
+            "date_read": "2026-10-28"
+        },
+        {
+            "provider": "Belay",
+            "plan": "Not published",
+            "billing": "flat monthly fee (amount not shown)",
+            "hours": "",
+            "price_usd": "",
+            "usd_per_hour": "",
+            "basis": "not stated",
+            "commitment": "Not stated",
+            "location": "U.S.-based assistants (as stated on the page)",
+            "source": "https://belaysolutions.com/",
+            "date_read": "2026-10-28"
+        }
+    ],
+    "myremoteva_hours_to_cost": [
+        {
+            "hours_needed_per_month": 1,
+            "hours_bought": 1,
+            "lowest_cost_usd": 12,
+            "usd_per_hour": "12.00",
+            "pay_as_you_go_cost_usd": 12,
+            "saving_percent_vs_pay_as_you_go": 0,
+            "plan_mix": "1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 2,
+            "hours_bought": 2,
+            "lowest_cost_usd": 24,
+            "usd_per_hour": "12.00",
+            "pay_as_you_go_cost_usd": 24,
+            "saving_percent_vs_pay_as_you_go": 0,
+            "plan_mix": "2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 3,
+            "hours_bought": 3,
+            "lowest_cost_usd": 33,
+            "usd_per_hour": "11.00",
+            "pay_as_you_go_cost_usd": 36,
+            "saving_percent_vs_pay_as_you_go": 8,
+            "plan_mix": "1 x 3-hour block"
+        },
+        {
+            "hours_needed_per_month": 4,
+            "hours_bought": 4,
+            "lowest_cost_usd": 45,
+            "usd_per_hour": "11.25",
+            "pay_as_you_go_cost_usd": 48,
+            "saving_percent_vs_pay_as_you_go": 6,
+            "plan_mix": "1 x 3-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 5,
+            "hours_bought": 5,
+            "lowest_cost_usd": 57,
+            "usd_per_hour": "11.40",
+            "pay_as_you_go_cost_usd": 60,
+            "saving_percent_vs_pay_as_you_go": 5,
+            "plan_mix": "1 x 3-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 6,
+            "hours_bought": 6,
+            "lowest_cost_usd": 63,
+            "usd_per_hour": "10.50",
+            "pay_as_you_go_cost_usd": 72,
+            "saving_percent_vs_pay_as_you_go": 12,
+            "plan_mix": "1 x 6-hour block"
+        },
+        {
+            "hours_needed_per_month": 7,
+            "hours_bought": 7,
+            "lowest_cost_usd": 75,
+            "usd_per_hour": "10.71",
+            "pay_as_you_go_cost_usd": 84,
+            "saving_percent_vs_pay_as_you_go": 10,
+            "plan_mix": "1 x 6-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 8,
+            "hours_bought": 8,
+            "lowest_cost_usd": 87,
+            "usd_per_hour": "10.88",
+            "pay_as_you_go_cost_usd": 96,
+            "saving_percent_vs_pay_as_you_go": 9,
+            "plan_mix": "1 x 6-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 9,
+            "hours_bought": 9,
+            "lowest_cost_usd": 96,
+            "usd_per_hour": "10.67",
+            "pay_as_you_go_cost_usd": 108,
+            "saving_percent_vs_pay_as_you_go": 11,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block"
+        },
+        {
+            "hours_needed_per_month": 10,
+            "hours_bought": 10,
+            "lowest_cost_usd": 108,
+            "usd_per_hour": "10.80",
+            "pay_as_you_go_cost_usd": 120,
+            "saving_percent_vs_pay_as_you_go": 9,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 11,
+            "hours_bought": 12,
+            "lowest_cost_usd": 120,
+            "usd_per_hour": "10.91",
+            "pay_as_you_go_cost_usd": 132,
+            "saving_percent_vs_pay_as_you_go": 9,
+            "plan_mix": "1 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 12,
+            "hours_bought": 12,
+            "lowest_cost_usd": 120,
+            "usd_per_hour": "10.00",
+            "pay_as_you_go_cost_usd": 144,
+            "saving_percent_vs_pay_as_you_go": 16,
+            "plan_mix": "1 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 13,
+            "hours_bought": 13,
+            "lowest_cost_usd": 132,
+            "usd_per_hour": "10.15",
+            "pay_as_you_go_cost_usd": 156,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 14,
+            "hours_bought": 14,
+            "lowest_cost_usd": 144,
+            "usd_per_hour": "10.29",
+            "pay_as_you_go_cost_usd": 168,
+            "saving_percent_vs_pay_as_you_go": 14,
+            "plan_mix": "1 x 12-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 15,
+            "hours_bought": 15,
+            "lowest_cost_usd": 153,
+            "usd_per_hour": "10.20",
+            "pay_as_you_go_cost_usd": 180,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 16,
+            "hours_bought": 16,
+            "lowest_cost_usd": 165,
+            "usd_per_hour": "10.31",
+            "pay_as_you_go_cost_usd": 192,
+            "saving_percent_vs_pay_as_you_go": 14,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 17,
+            "hours_bought": 17,
+            "lowest_cost_usd": 177,
+            "usd_per_hour": "10.41",
+            "pay_as_you_go_cost_usd": 204,
+            "saving_percent_vs_pay_as_you_go": 13,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 18,
+            "hours_bought": 18,
+            "lowest_cost_usd": 183,
+            "usd_per_hour": "10.17",
+            "pay_as_you_go_cost_usd": 216,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 6-hour block + 1 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 19,
+            "hours_bought": 19,
+            "lowest_cost_usd": 195,
+            "usd_per_hour": "10.26",
+            "pay_as_you_go_cost_usd": 228,
+            "saving_percent_vs_pay_as_you_go": 14,
+            "plan_mix": "1 x 6-hour block + 1 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 20,
+            "hours_bought": 20,
+            "lowest_cost_usd": 207,
+            "usd_per_hour": "10.35",
+            "pay_as_you_go_cost_usd": 240,
+            "saving_percent_vs_pay_as_you_go": 13,
+            "plan_mix": "1 x 6-hour block + 1 x 12-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 21,
+            "hours_bought": 21,
+            "lowest_cost_usd": 216,
+            "usd_per_hour": "10.29",
+            "pay_as_you_go_cost_usd": 252,
+            "saving_percent_vs_pay_as_you_go": 14,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 22,
+            "hours_bought": 22,
+            "lowest_cost_usd": 228,
+            "usd_per_hour": "10.36",
+            "pay_as_you_go_cost_usd": 264,
+            "saving_percent_vs_pay_as_you_go": 13,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 23,
+            "hours_bought": 24,
+            "lowest_cost_usd": 240,
+            "usd_per_hour": "10.43",
+            "pay_as_you_go_cost_usd": 276,
+            "saving_percent_vs_pay_as_you_go": 13,
+            "plan_mix": "2 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 24,
+            "hours_bought": 24,
+            "lowest_cost_usd": 240,
+            "usd_per_hour": "10.00",
+            "pay_as_you_go_cost_usd": 288,
+            "saving_percent_vs_pay_as_you_go": 16,
+            "plan_mix": "2 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 25,
+            "hours_bought": 25,
+            "lowest_cost_usd": 252,
+            "usd_per_hour": "10.08",
+            "pay_as_you_go_cost_usd": 300,
+            "saving_percent_vs_pay_as_you_go": 16,
+            "plan_mix": "2 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 26,
+            "hours_bought": 26,
+            "lowest_cost_usd": 264,
+            "usd_per_hour": "10.15",
+            "pay_as_you_go_cost_usd": 312,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "2 x 12-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 27,
+            "hours_bought": 27,
+            "lowest_cost_usd": 273,
+            "usd_per_hour": "10.11",
+            "pay_as_you_go_cost_usd": 324,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 3-hour block + 2 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 28,
+            "hours_bought": 28,
+            "lowest_cost_usd": 285,
+            "usd_per_hour": "10.18",
+            "pay_as_you_go_cost_usd": 336,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 3-hour block + 2 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 29,
+            "hours_bought": 29,
+            "lowest_cost_usd": 297,
+            "usd_per_hour": "10.24",
+            "pay_as_you_go_cost_usd": 348,
+            "saving_percent_vs_pay_as_you_go": 14,
+            "plan_mix": "1 x 3-hour block + 2 x 12-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 30,
+            "hours_bought": 30,
+            "lowest_cost_usd": 303,
+            "usd_per_hour": "10.10",
+            "pay_as_you_go_cost_usd": 360,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 6-hour block + 2 x 12-hour block"
+        },
+        {
+            "hours_needed_per_month": 31,
+            "hours_bought": 31,
+            "lowest_cost_usd": 315,
+            "usd_per_hour": "10.16",
+            "pay_as_you_go_cost_usd": 372,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 6-hour block + 2 x 12-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 32,
+            "hours_bought": 36,
+            "lowest_cost_usd": 324,
+            "usd_per_hour": "10.13",
+            "pay_as_you_go_cost_usd": 384,
+            "saving_percent_vs_pay_as_you_go": 15,
+            "plan_mix": "1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 33,
+            "hours_bought": 36,
+            "lowest_cost_usd": 324,
+            "usd_per_hour": "9.82",
+            "pay_as_you_go_cost_usd": 396,
+            "saving_percent_vs_pay_as_you_go": 18,
+            "plan_mix": "1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 34,
+            "hours_bought": 36,
+            "lowest_cost_usd": 324,
+            "usd_per_hour": "9.53",
+            "pay_as_you_go_cost_usd": 408,
+            "saving_percent_vs_pay_as_you_go": 20,
+            "plan_mix": "1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 35,
+            "hours_bought": 36,
+            "lowest_cost_usd": 324,
+            "usd_per_hour": "9.26",
+            "pay_as_you_go_cost_usd": 420,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 36,
+            "hours_bought": 36,
+            "lowest_cost_usd": 324,
+            "usd_per_hour": "9.00",
+            "pay_as_you_go_cost_usd": 432,
+            "saving_percent_vs_pay_as_you_go": 25,
+            "plan_mix": "1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 37,
+            "hours_bought": 37,
+            "lowest_cost_usd": 336,
+            "usd_per_hour": "9.08",
+            "pay_as_you_go_cost_usd": 444,
+            "saving_percent_vs_pay_as_you_go": 24,
+            "plan_mix": "1 x 36-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 38,
+            "hours_bought": 38,
+            "lowest_cost_usd": 348,
+            "usd_per_hour": "9.16",
+            "pay_as_you_go_cost_usd": 456,
+            "saving_percent_vs_pay_as_you_go": 23,
+            "plan_mix": "1 x 36-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 39,
+            "hours_bought": 39,
+            "lowest_cost_usd": 357,
+            "usd_per_hour": "9.15",
+            "pay_as_you_go_cost_usd": 468,
+            "saving_percent_vs_pay_as_you_go": 23,
+            "plan_mix": "1 x 3-hour block + 1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 40,
+            "hours_bought": 40,
+            "lowest_cost_usd": 369,
+            "usd_per_hour": "9.23",
+            "pay_as_you_go_cost_usd": 480,
+            "saving_percent_vs_pay_as_you_go": 23,
+            "plan_mix": "1 x 3-hour block + 1 x 36-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 41,
+            "hours_bought": 41,
+            "lowest_cost_usd": 381,
+            "usd_per_hour": "9.29",
+            "pay_as_you_go_cost_usd": 492,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 3-hour block + 1 x 36-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 42,
+            "hours_bought": 42,
+            "lowest_cost_usd": 387,
+            "usd_per_hour": "9.21",
+            "pay_as_you_go_cost_usd": 504,
+            "saving_percent_vs_pay_as_you_go": 23,
+            "plan_mix": "1 x 6-hour block + 1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 43,
+            "hours_bought": 43,
+            "lowest_cost_usd": 399,
+            "usd_per_hour": "9.28",
+            "pay_as_you_go_cost_usd": 516,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 6-hour block + 1 x 36-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 44,
+            "hours_bought": 44,
+            "lowest_cost_usd": 411,
+            "usd_per_hour": "9.34",
+            "pay_as_you_go_cost_usd": 528,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 6-hour block + 1 x 36-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 45,
+            "hours_bought": 45,
+            "lowest_cost_usd": 420,
+            "usd_per_hour": "9.33",
+            "pay_as_you_go_cost_usd": 540,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 46,
+            "hours_bought": 46,
+            "lowest_cost_usd": 432,
+            "usd_per_hour": "9.39",
+            "pay_as_you_go_cost_usd": 552,
+            "saving_percent_vs_pay_as_you_go": 21,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x 36-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 47,
+            "hours_bought": 48,
+            "lowest_cost_usd": 444,
+            "usd_per_hour": "9.45",
+            "pay_as_you_go_cost_usd": 564,
+            "saving_percent_vs_pay_as_you_go": 21,
+            "plan_mix": "1 x 12-hour block + 1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 48,
+            "hours_bought": 48,
+            "lowest_cost_usd": 444,
+            "usd_per_hour": "9.25",
+            "pay_as_you_go_cost_usd": 576,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 12-hour block + 1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 49,
+            "hours_bought": 49,
+            "lowest_cost_usd": 456,
+            "usd_per_hour": "9.31",
+            "pay_as_you_go_cost_usd": 588,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 12-hour block + 1 x 36-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 50,
+            "hours_bought": 50,
+            "lowest_cost_usd": 468,
+            "usd_per_hour": "9.36",
+            "pay_as_you_go_cost_usd": 600,
+            "saving_percent_vs_pay_as_you_go": 21,
+            "plan_mix": "1 x 12-hour block + 1 x 36-hour block + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 51,
+            "hours_bought": 51,
+            "lowest_cost_usd": 477,
+            "usd_per_hour": "9.35",
+            "pay_as_you_go_cost_usd": 612,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 1 x 36-hour block"
+        },
+        {
+            "hours_needed_per_month": 52,
+            "hours_bought": 52,
+            "lowest_cost_usd": 489,
+            "usd_per_hour": "9.40",
+            "pay_as_you_go_cost_usd": 624,
+            "saving_percent_vs_pay_as_you_go": 21,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 1 x 36-hour block + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 53,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "9.43",
+            "pay_as_you_go_cost_usd": 636,
+            "saving_percent_vs_pay_as_you_go": 21,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 54,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "9.26",
+            "pay_as_you_go_cost_usd": 648,
+            "saving_percent_vs_pay_as_you_go": 22,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 55,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "9.09",
+            "pay_as_you_go_cost_usd": 660,
+            "saving_percent_vs_pay_as_you_go": 24,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 56,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.93",
+            "pay_as_you_go_cost_usd": 672,
+            "saving_percent_vs_pay_as_you_go": 25,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 57,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.77",
+            "pay_as_you_go_cost_usd": 684,
+            "saving_percent_vs_pay_as_you_go": 26,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 58,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.62",
+            "pay_as_you_go_cost_usd": 696,
+            "saving_percent_vs_pay_as_you_go": 28,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 59,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.47",
+            "pay_as_you_go_cost_usd": 708,
+            "saving_percent_vs_pay_as_you_go": 29,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 60,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.33",
+            "pay_as_you_go_cost_usd": 720,
+            "saving_percent_vs_pay_as_you_go": 30,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 61,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.20",
+            "pay_as_you_go_cost_usd": 732,
+            "saving_percent_vs_pay_as_you_go": 31,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 62,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "8.06",
+            "pay_as_you_go_cost_usd": 744,
+            "saving_percent_vs_pay_as_you_go": 32,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 63,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.94",
+            "pay_as_you_go_cost_usd": 756,
+            "saving_percent_vs_pay_as_you_go": 33,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 64,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.81",
+            "pay_as_you_go_cost_usd": 768,
+            "saving_percent_vs_pay_as_you_go": 34,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 65,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.69",
+            "pay_as_you_go_cost_usd": 780,
+            "saving_percent_vs_pay_as_you_go": 35,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 66,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.58",
+            "pay_as_you_go_cost_usd": 792,
+            "saving_percent_vs_pay_as_you_go": 36,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 67,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.46",
+            "pay_as_you_go_cost_usd": 804,
+            "saving_percent_vs_pay_as_you_go": 37,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 68,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.35",
+            "pay_as_you_go_cost_usd": 816,
+            "saving_percent_vs_pay_as_you_go": 38,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 69,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.25",
+            "pay_as_you_go_cost_usd": 828,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 70,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.14",
+            "pay_as_you_go_cost_usd": 840,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 71,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "7.04",
+            "pay_as_you_go_cost_usd": 852,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 72,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.94",
+            "pay_as_you_go_cost_usd": 864,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 73,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.85",
+            "pay_as_you_go_cost_usd": 876,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 74,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.76",
+            "pay_as_you_go_cost_usd": 888,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 75,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.67",
+            "pay_as_you_go_cost_usd": 900,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 76,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.58",
+            "pay_as_you_go_cost_usd": 912,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 77,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.49",
+            "pay_as_you_go_cost_usd": 924,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 78,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.41",
+            "pay_as_you_go_cost_usd": 936,
+            "saving_percent_vs_pay_as_you_go": 46,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 79,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.33",
+            "pay_as_you_go_cost_usd": 948,
+            "saving_percent_vs_pay_as_you_go": 47,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 80,
+            "hours_bought": 80,
+            "lowest_cost_usd": 500,
+            "usd_per_hour": "6.25",
+            "pay_as_you_go_cost_usd": 960,
+            "saving_percent_vs_pay_as_you_go": 47,
+            "plan_mix": "1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 81,
+            "hours_bought": 81,
+            "lowest_cost_usd": 512,
+            "usd_per_hour": "6.32",
+            "pay_as_you_go_cost_usd": 972,
+            "saving_percent_vs_pay_as_you_go": 47,
+            "plan_mix": "1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 82,
+            "hours_bought": 82,
+            "lowest_cost_usd": 524,
+            "usd_per_hour": "6.39",
+            "pay_as_you_go_cost_usd": 984,
+            "saving_percent_vs_pay_as_you_go": 46,
+            "plan_mix": "1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 83,
+            "hours_bought": 83,
+            "lowest_cost_usd": 533,
+            "usd_per_hour": "6.42",
+            "pay_as_you_go_cost_usd": 996,
+            "saving_percent_vs_pay_as_you_go": 46,
+            "plan_mix": "1 x 3-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 84,
+            "hours_bought": 84,
+            "lowest_cost_usd": 545,
+            "usd_per_hour": "6.49",
+            "pay_as_you_go_cost_usd": 1008,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x 3-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 85,
+            "hours_bought": 85,
+            "lowest_cost_usd": 557,
+            "usd_per_hour": "6.55",
+            "pay_as_you_go_cost_usd": 1020,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x 3-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 86,
+            "hours_bought": 86,
+            "lowest_cost_usd": 563,
+            "usd_per_hour": "6.55",
+            "pay_as_you_go_cost_usd": 1032,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x 6-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 87,
+            "hours_bought": 87,
+            "lowest_cost_usd": 575,
+            "usd_per_hour": "6.61",
+            "pay_as_you_go_cost_usd": 1044,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x 6-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 88,
+            "hours_bought": 88,
+            "lowest_cost_usd": 587,
+            "usd_per_hour": "6.67",
+            "pay_as_you_go_cost_usd": 1056,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x 6-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 89,
+            "hours_bought": 89,
+            "lowest_cost_usd": 596,
+            "usd_per_hour": "6.70",
+            "pay_as_you_go_cost_usd": 1068,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 90,
+            "hours_bought": 90,
+            "lowest_cost_usd": 608,
+            "usd_per_hour": "6.76",
+            "pay_as_you_go_cost_usd": 1080,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 91,
+            "hours_bought": 92,
+            "lowest_cost_usd": 620,
+            "usd_per_hour": "6.81",
+            "pay_as_you_go_cost_usd": 1092,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 92,
+            "hours_bought": 92,
+            "lowest_cost_usd": 620,
+            "usd_per_hour": "6.74",
+            "pay_as_you_go_cost_usd": 1104,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 93,
+            "hours_bought": 93,
+            "lowest_cost_usd": 632,
+            "usd_per_hour": "6.80",
+            "pay_as_you_go_cost_usd": 1116,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 94,
+            "hours_bought": 94,
+            "lowest_cost_usd": 644,
+            "usd_per_hour": "6.85",
+            "pay_as_you_go_cost_usd": 1128,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x 12-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 95,
+            "hours_bought": 95,
+            "lowest_cost_usd": 653,
+            "usd_per_hour": "6.87",
+            "pay_as_you_go_cost_usd": 1140,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 96,
+            "hours_bought": 96,
+            "lowest_cost_usd": 665,
+            "usd_per_hour": "6.93",
+            "pay_as_you_go_cost_usd": 1152,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 97,
+            "hours_bought": 97,
+            "lowest_cost_usd": 677,
+            "usd_per_hour": "6.98",
+            "pay_as_you_go_cost_usd": 1164,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x 3-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 98,
+            "hours_bought": 98,
+            "lowest_cost_usd": 683,
+            "usd_per_hour": "6.97",
+            "pay_as_you_go_cost_usd": 1176,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x 6-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 99,
+            "hours_bought": 99,
+            "lowest_cost_usd": 695,
+            "usd_per_hour": "7.02",
+            "pay_as_you_go_cost_usd": 1188,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x 6-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 100,
+            "hours_bought": 100,
+            "lowest_cost_usd": 707,
+            "usd_per_hour": "7.07",
+            "pay_as_you_go_cost_usd": 1200,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x 6-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 101,
+            "hours_bought": 101,
+            "lowest_cost_usd": 716,
+            "usd_per_hour": "7.09",
+            "pay_as_you_go_cost_usd": 1212,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 102,
+            "hours_bought": 102,
+            "lowest_cost_usd": 728,
+            "usd_per_hour": "7.14",
+            "pay_as_you_go_cost_usd": 1224,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x 3-hour block + 1 x 6-hour block + 1 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 103,
+            "hours_bought": 104,
+            "lowest_cost_usd": 740,
+            "usd_per_hour": "7.18",
+            "pay_as_you_go_cost_usd": 1236,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "2 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 104,
+            "hours_bought": 104,
+            "lowest_cost_usd": 740,
+            "usd_per_hour": "7.12",
+            "pay_as_you_go_cost_usd": 1248,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "2 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 105,
+            "hours_bought": 105,
+            "lowest_cost_usd": 752,
+            "usd_per_hour": "7.16",
+            "pay_as_you_go_cost_usd": 1260,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "2 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 106,
+            "hours_bought": 106,
+            "lowest_cost_usd": 764,
+            "usd_per_hour": "7.21",
+            "pay_as_you_go_cost_usd": 1272,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "2 x 12-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 107,
+            "hours_bought": 107,
+            "lowest_cost_usd": 773,
+            "usd_per_hour": "7.22",
+            "pay_as_you_go_cost_usd": 1284,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 3-hour block + 2 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 108,
+            "hours_bought": 108,
+            "lowest_cost_usd": 785,
+            "usd_per_hour": "7.27",
+            "pay_as_you_go_cost_usd": 1296,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 3-hour block + 2 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 109,
+            "hours_bought": 109,
+            "lowest_cost_usd": 797,
+            "usd_per_hour": "7.31",
+            "pay_as_you_go_cost_usd": 1308,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 3-hour block + 2 x 12-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 110,
+            "hours_bought": 110,
+            "lowest_cost_usd": 803,
+            "usd_per_hour": "7.30",
+            "pay_as_you_go_cost_usd": 1320,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 6-hour block + 2 x 12-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 111,
+            "hours_bought": 111,
+            "lowest_cost_usd": 815,
+            "usd_per_hour": "7.34",
+            "pay_as_you_go_cost_usd": 1332,
+            "saving_percent_vs_pay_as_you_go": 38,
+            "plan_mix": "1 x 6-hour block + 2 x 12-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 112,
+            "hours_bought": 116,
+            "lowest_cost_usd": 824,
+            "usd_per_hour": "7.36",
+            "pay_as_you_go_cost_usd": 1344,
+            "saving_percent_vs_pay_as_you_go": 38,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 113,
+            "hours_bought": 116,
+            "lowest_cost_usd": 824,
+            "usd_per_hour": "7.29",
+            "pay_as_you_go_cost_usd": 1356,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 114,
+            "hours_bought": 116,
+            "lowest_cost_usd": 824,
+            "usd_per_hour": "7.23",
+            "pay_as_you_go_cost_usd": 1368,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 115,
+            "hours_bought": 116,
+            "lowest_cost_usd": 824,
+            "usd_per_hour": "7.17",
+            "pay_as_you_go_cost_usd": 1380,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 116,
+            "hours_bought": 116,
+            "lowest_cost_usd": 824,
+            "usd_per_hour": "7.10",
+            "pay_as_you_go_cost_usd": 1392,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 117,
+            "hours_bought": 117,
+            "lowest_cost_usd": 836,
+            "usd_per_hour": "7.15",
+            "pay_as_you_go_cost_usd": 1404,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 118,
+            "hours_bought": 118,
+            "lowest_cost_usd": 848,
+            "usd_per_hour": "7.19",
+            "pay_as_you_go_cost_usd": 1416,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x 36-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 119,
+            "hours_bought": 119,
+            "lowest_cost_usd": 857,
+            "usd_per_hour": "7.20",
+            "pay_as_you_go_cost_usd": 1428,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 3-hour block + 1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 120,
+            "hours_bought": 120,
+            "lowest_cost_usd": 869,
+            "usd_per_hour": "7.24",
+            "pay_as_you_go_cost_usd": 1440,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 3-hour block + 1 x 36-hour block + 1 x part-time plan (80 hours) + 1 x pay-as-you-go hour"
+        },
+        {
+            "hours_needed_per_month": 121,
+            "hours_bought": 121,
+            "lowest_cost_usd": 881,
+            "usd_per_hour": "7.28",
+            "pay_as_you_go_cost_usd": 1452,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 3-hour block + 1 x 36-hour block + 1 x part-time plan (80 hours) + 2 x pay-as-you-go hours"
+        },
+        {
+            "hours_needed_per_month": 122,
+            "hours_bought": 122,
+            "lowest_cost_usd": 887,
+            "usd_per_hour": "7.27",
+            "pay_as_you_go_cost_usd": 1464,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x 6-hour block + 1 x 36-hour block + 1 x part-time plan (80 hours)"
+        },
+        {
+            "hours_needed_per_month": 123,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "7.31",
+            "pay_as_you_go_cost_usd": 1476,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 124,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "7.25",
+            "pay_as_you_go_cost_usd": 1488,
+            "saving_percent_vs_pay_as_you_go": 39,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 125,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "7.19",
+            "pay_as_you_go_cost_usd": 1500,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 126,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "7.13",
+            "pay_as_you_go_cost_usd": 1512,
+            "saving_percent_vs_pay_as_you_go": 40,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 127,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "7.08",
+            "pay_as_you_go_cost_usd": 1524,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 128,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "7.02",
+            "pay_as_you_go_cost_usd": 1536,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 129,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.97",
+            "pay_as_you_go_cost_usd": 1548,
+            "saving_percent_vs_pay_as_you_go": 41,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 130,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.92",
+            "pay_as_you_go_cost_usd": 1560,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 131,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.86",
+            "pay_as_you_go_cost_usd": 1572,
+            "saving_percent_vs_pay_as_you_go": 42,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 132,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.81",
+            "pay_as_you_go_cost_usd": 1584,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 133,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.76",
+            "pay_as_you_go_cost_usd": 1596,
+            "saving_percent_vs_pay_as_you_go": 43,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 134,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.71",
+            "pay_as_you_go_cost_usd": 1608,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 135,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.66",
+            "pay_as_you_go_cost_usd": 1620,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 136,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.61",
+            "pay_as_you_go_cost_usd": 1632,
+            "saving_percent_vs_pay_as_you_go": 44,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 137,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.56",
+            "pay_as_you_go_cost_usd": 1644,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 138,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.51",
+            "pay_as_you_go_cost_usd": 1656,
+            "saving_percent_vs_pay_as_you_go": 45,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 139,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.47",
+            "pay_as_you_go_cost_usd": 1668,
+            "saving_percent_vs_pay_as_you_go": 46,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 140,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.42",
+            "pay_as_you_go_cost_usd": 1680,
+            "saving_percent_vs_pay_as_you_go": 46,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 141,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.38",
+            "pay_as_you_go_cost_usd": 1692,
+            "saving_percent_vs_pay_as_you_go": 46,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 142,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.33",
+            "pay_as_you_go_cost_usd": 1704,
+            "saving_percent_vs_pay_as_you_go": 47,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 143,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.29",
+            "pay_as_you_go_cost_usd": 1716,
+            "saving_percent_vs_pay_as_you_go": 47,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 144,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.24",
+            "pay_as_you_go_cost_usd": 1728,
+            "saving_percent_vs_pay_as_you_go": 47,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 145,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.20",
+            "pay_as_you_go_cost_usd": 1740,
+            "saving_percent_vs_pay_as_you_go": 48,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 146,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.16",
+            "pay_as_you_go_cost_usd": 1752,
+            "saving_percent_vs_pay_as_you_go": 48,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 147,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.12",
+            "pay_as_you_go_cost_usd": 1764,
+            "saving_percent_vs_pay_as_you_go": 49,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 148,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.07",
+            "pay_as_you_go_cost_usd": 1776,
+            "saving_percent_vs_pay_as_you_go": 49,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 149,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "6.03",
+            "pay_as_you_go_cost_usd": 1788,
+            "saving_percent_vs_pay_as_you_go": 49,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 150,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.99",
+            "pay_as_you_go_cost_usd": 1800,
+            "saving_percent_vs_pay_as_you_go": 50,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 151,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.95",
+            "pay_as_you_go_cost_usd": 1812,
+            "saving_percent_vs_pay_as_you_go": 50,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 152,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.91",
+            "pay_as_you_go_cost_usd": 1824,
+            "saving_percent_vs_pay_as_you_go": 50,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 153,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.88",
+            "pay_as_you_go_cost_usd": 1836,
+            "saving_percent_vs_pay_as_you_go": 51,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 154,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.84",
+            "pay_as_you_go_cost_usd": 1848,
+            "saving_percent_vs_pay_as_you_go": 51,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 155,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.80",
+            "pay_as_you_go_cost_usd": 1860,
+            "saving_percent_vs_pay_as_you_go": 51,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 156,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.76",
+            "pay_as_you_go_cost_usd": 1872,
+            "saving_percent_vs_pay_as_you_go": 51,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 157,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.73",
+            "pay_as_you_go_cost_usd": 1884,
+            "saving_percent_vs_pay_as_you_go": 52,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 158,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.69",
+            "pay_as_you_go_cost_usd": 1896,
+            "saving_percent_vs_pay_as_you_go": 52,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 159,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.65",
+            "pay_as_you_go_cost_usd": 1908,
+            "saving_percent_vs_pay_as_you_go": 52,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        },
+        {
+            "hours_needed_per_month": 160,
+            "hours_bought": 160,
+            "lowest_cost_usd": 899,
+            "usd_per_hour": "5.62",
+            "pay_as_you_go_cost_usd": 1920,
+            "saving_percent_vs_pay_as_you_go": 53,
+            "plan_mix": "1 x full-time plan (160 hours)"
+        }
+    ]
+}
