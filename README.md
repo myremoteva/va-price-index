@@ -5,6 +5,7 @@ Prices that virtual assistant providers publish on their own pricing pages, side
 Canonical page: https://myremoteva.com/va-price-index
 DOI: https://doi.org/10.5281/zenodo.24424846 (Zenodo)
 Kaggle mirror: https://www.kaggle.com/datasets/myremoteva/virtual-assistant-price-index-nov-2026
+Hugging Face mirror: https://huggingface.co/datasets/myremoteva/va-price-index
 
 ## Disclosure
 Published by MyRemoteVA, which sells managed virtual assistant services and is one of the providers in the table. We record only what each provider shows on its own public pricing page and say when a figure is our own arithmetic.
